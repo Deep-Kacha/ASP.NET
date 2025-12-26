@@ -21,7 +21,7 @@ namespace LoanDemo
             Session["email"] = txtEmail.Text; // store email in session
             Session["password"] = txtPassword.Text; // store password in session
 
-            Response.Redirect("Home.aspx"); // move to Home page after login
+            Response.Redirect("mHome.aspx"); // move to Home page after login
         }
 
         protected void btnReset_Click(object sender, EventArgs e)

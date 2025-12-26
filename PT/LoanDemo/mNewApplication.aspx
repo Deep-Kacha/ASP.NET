@@ -1,0 +1,67 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/LoanMaster.Master" AutoEventWireup="true" CodeBehind="mNewApplication.aspx.cs" Inherits="LoanDemo.mNewApplication" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <br />
+    <asp:Label ID="Label1" runat="server" Text="NEW LOAN APPLICATION"></asp:Label><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<table>
+    <tr>
+        <td>Saving Account No: </td>
+        <td>
+            <asp:TextBox ID="txtsavingaccount" runat="server"></asp:TextBox><br />
+        </td>
+    </tr>
+    <tr>
+        <td>Account Holder Name : </td>
+        <td>
+            <asp:TextBox ID="txtaccholdername" runat="server"></asp:TextBox></td>
+    </tr>
+    <tr>
+        <td>Loan Category : </td>
+        <td>
+            <asp:DropDownList ID="catagoryDropDownList" runat="server">
+                <asp:ListItem>Property Loan</asp:ListItem>
+                <asp:ListItem>Fixed Rate Loan</asp:ListItem>
+                <asp:ListItem>Term Loan</asp:ListItem>
+            </asp:DropDownList>
+        </td>
+    </tr>
+    <tr>
+        <td>Loan Type : </td>
+        <td>
+            <asp:DropDownList ID="typeDropDownList" runat="server">
+                <asp:ListItem>Education Loan</asp:ListItem>
+                <asp:ListItem>Home Loan</asp:ListItem>
+            </asp:DropDownList>
+        </td>
+    </tr>
+    <tr>
+        <td>Loan Issue Date : </td>
+        <td>
+            <asp:TextBox ID="txtdate" runat="server"></asp:TextBox>
+        </td>
+    </tr>
+    <tr>
+        <td>Loan Amount : </td>
+        <td>
+            <asp:TextBox ID="txtamount" runat="server"></asp:TextBox>
+        </td>
+    </tr>
+    <tr>
+        <td>Current Address : </td>
+        <td>
+            <textarea id="TextArea1" cols="20" name="S1" rows="2"></textarea></td>
+    </tr>
+    <tr>
+        <td>Loan Remarks : </td>
+        <td>
+            <textarea id="TextArea2" cols="20" name="S2" rows="2"></textarea></td>
+    </tr>
+
+</table>
+<br />
+<asp:Button ID="btnsubmit" runat="server" Text="Submit Application" />&nbsp;<br />
+<asp:Label ID="lblsubmit" runat="server" Text="Record Inserted sucessfully"></asp:Label>
+</asp:Content>

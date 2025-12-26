@@ -14,24 +14,28 @@
         <br />
         <hr />
         Logged in:
-        <asp:Label ID="lblUser" runat="server" Text="Logged in user"></asp:Label>&nbsp;&nbsp;
+        <asp:Label ID="lblUser" runat="server" Text="Logged in user"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="btnLogout" runat="server" Text="Logout" OnClick="btnLogout_Click" />
-        <h2 align="center">Welcome to the place to fullfill your dreams for the family and social needs.</h2>
-        
-        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Home</asp:LinkButton>
-        <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton1_Click">Home</asp:LinkButton>
-        <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton1_Click">Home</asp:LinkButton>
-        <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton1_Click">Home</asp:LinkButton>
-        <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton1_Click">Home</asp:LinkButton>
+        <br />
+        <br />
+        <asp:LinkButton ID="btnHome" runat="server" OnClick="linkBtnHome">Home</asp:LinkButton>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <asp:LinkButton ID="btnNewApplication" runat="server" OnClick="linkBtnNewApplication">New Application</asp:LinkButton>
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <asp:LinkButton ID="btnUodateApplication" runat="server" OnClick="linkBtnUodateApplication">Update Application</asp:LinkButton>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <asp:LinkButton ID="btnRemoveApplication" runat="server" OnClick="linkBtnRemoveApplication">Remove Application</asp:LinkButton>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <asp:LinkButton ID="btnViewAll" runat="server" OnClick="linkBtnViewAll">View All</asp:LinkButton>
 
 
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-        <h2>Contact Us </h2>
-        <h2>HDFC Loan Systems</h2>
-        <h2>Mumbai, Maharashtra, India</h2>
+        <h2>Contact Us : 12375 67890</h2>
+        <h3>HDFC Loan Systems</h3>
+        <h3>Mumbai, Maharashtra, India</h3>
     </form>
 </body>
 </html>

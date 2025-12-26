@@ -69,6 +69,11 @@
   <ItemGroup>
     <Content Include="Home.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="mHome.aspx" />
+    <Content Include="mNewApplication.aspx" />
+    <Content Include="mRemoveApplication.aspx" />
+    <Content Include="mUpdateApplication.aspx" />
+    <Content Include="mViewApplication.aspx" />
     <Content Include="NewApplication.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -93,6 +98,41 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mHome.aspx.cs">
+      <DependentUpon>mHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mHome.aspx.designer.cs">
+      <DependentUpon>mHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mNewApplication.aspx.cs">
+      <DependentUpon>mNewApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mNewApplication.aspx.designer.cs">
+      <DependentUpon>mNewApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mRemoveApplication.aspx.cs">
+      <DependentUpon>mRemoveApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mRemoveApplication.aspx.designer.cs">
+      <DependentUpon>mRemoveApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mUpdateApplication.aspx.cs">
+      <DependentUpon>mUpdateApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mUpdateApplication.aspx.designer.cs">
+      <DependentUpon>mUpdateApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mViewApplication.aspx.cs">
+      <DependentUpon>mViewApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mViewApplication.aspx.designer.cs">
+      <DependentUpon>mViewApplication.aspx</DependentUpon>
     </Compile>
     <Compile Include="NewApplication.aspx.cs">
       <DependentUpon>NewApplication.aspx</DependentUpon>

@@ -3,32 +3,56 @@
   "WorkspaceRootPath": "D:\\ASP.NET\\PT\\LoanDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|d:\\asp.net\\pt\\loandemo\\mviewapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:mviewapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|d:\\asp.net\\pt\\loandemo\\mremoveapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:mremoveapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|d:\\asp.net\\pt\\loandemo\\loanmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:loanmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|d:\\asp.net\\pt\\loandemo\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|d:\\asp.net\\pt\\loandemo\\mnewapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:mnewapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|d:\\asp.net\\pt\\loandemo\\newapplication.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:newapplication.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|D:\\ASP.NET\\PT\\LoanDemo\\loanmaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:loanmaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|d:\\asp.net\\pt\\loandemo\\newapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|d:\\asp.net\\pt\\loandemo\\mupdateapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:mupdateapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|D:\\ASP.NET\\PT\\LoanDemo\\mhome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:mhome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|D:\\ASP.NET\\PT\\LoanDemo\\newapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:newapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|d:\\asp.net\\pt\\loandemo\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|d:\\asp.net\\pt\\loandemo\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|D:\\ASP.NET\\PT\\LoanDemo\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|D:\\ASP.NET\\PT\\LoanDemo\\Login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:Login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|D:\\ASP.NET\\PT\\LoanDemo\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|D:\\ASP.NET\\PT\\LoanDemo\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|D:\\ASP.NET\\PT\\LoanDemo\\newapplication.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:newapplication.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,6 +79,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "mViewApplication.aspx",
+              "DocumentMoniker": "D:\\ASP.NET\\PT\\LoanDemo\\mViewApplication.aspx",
+              "RelativeDocumentMoniker": "mViewApplication.aspx",
+              "ToolTip": "D:\\ASP.NET\\PT\\LoanDemo\\mViewApplication.aspx",
+              "RelativeToolTip": "mViewApplication.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-26T15:50:08.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mRemoveApplication.aspx",
+              "DocumentMoniker": "D:\\ASP.NET\\PT\\LoanDemo\\mRemoveApplication.aspx",
+              "RelativeDocumentMoniker": "mRemoveApplication.aspx",
+              "ToolTip": "D:\\ASP.NET\\PT\\LoanDemo\\mRemoveApplication.aspx",
+              "RelativeToolTip": "mRemoveApplication.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-26T15:41:07.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "mUpdateApplication.aspx",
+              "DocumentMoniker": "D:\\ASP.NET\\PT\\LoanDemo\\mUpdateApplication.aspx",
+              "RelativeDocumentMoniker": "mUpdateApplication.aspx",
+              "ToolTip": "D:\\ASP.NET\\PT\\LoanDemo\\mUpdateApplication.aspx",
+              "RelativeToolTip": "mUpdateApplication.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-26T15:35:49.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "mNewApplication.aspx",
+              "DocumentMoniker": "D:\\ASP.NET\\PT\\LoanDemo\\mNewApplication.aspx",
+              "RelativeDocumentMoniker": "mNewApplication.aspx",
+              "ToolTip": "D:\\ASP.NET\\PT\\LoanDemo\\mNewApplication.aspx",
+              "RelativeToolTip": "mNewApplication.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-26T15:29:07.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoanMaster.Master.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\PT\\LoanDemo\\LoanMaster.Master.cs",
+              "RelativeDocumentMoniker": "LoanMaster.Master.cs",
+              "ToolTip": "D:\\ASP.NET\\PT\\LoanDemo\\LoanMaster.Master.cs",
+              "RelativeToolTip": "LoanMaster.Master.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T14:21:01.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "mHome.aspx",
+              "DocumentMoniker": "D:\\ASP.NET\\PT\\LoanDemo\\mHome.aspx",
+              "RelativeDocumentMoniker": "mHome.aspx",
+              "ToolTip": "D:\\ASP.NET\\PT\\LoanDemo\\mHome.aspx",
+              "RelativeToolTip": "mHome.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-26T14:13:40.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LoanMaster.Master",
               "DocumentMoniker": "D:\\ASP.NET\\PT\\LoanDemo\\LoanMaster.Master",
               "RelativeDocumentMoniker": "LoanMaster.Master",
@@ -67,20 +169,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Login.aspx.cs",
               "DocumentMoniker": "D:\\ASP.NET\\PT\\LoanDemo\\Login.aspx.cs",
               "RelativeDocumentMoniker": "Login.aspx.cs",
               "ToolTip": "D:\\ASP.NET\\PT\\LoanDemo\\Login.aspx.cs",
               "RelativeToolTip": "Login.aspx.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAowBcAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA4wBcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-26T05:37:11.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "NewApplication.aspx.cs",
               "DocumentMoniker": "D:\\ASP.NET\\PT\\LoanDemo\\NewApplication.aspx.cs",
               "RelativeDocumentMoniker": "NewApplication.aspx.cs",
@@ -93,46 +195,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Home.aspx.cs",
               "DocumentMoniker": "D:\\ASP.NET\\PT\\LoanDemo\\Home.aspx.cs",
               "RelativeDocumentMoniker": "Home.aspx.cs",
               "ToolTip": "D:\\ASP.NET\\PT\\LoanDemo\\Home.aspx.cs",
               "RelativeToolTip": "Home.aspx.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBIAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-26T05:26:12.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "Home.aspx",
               "DocumentMoniker": "D:\\ASP.NET\\PT\\LoanDemo\\Home.aspx",
               "RelativeDocumentMoniker": "Home.aspx",
               "ToolTip": "D:\\ASP.NET\\PT\\LoanDemo\\Home.aspx",
               "RelativeToolTip": "Home.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-12-26T05:26:07.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "NewApplication.aspx",
               "DocumentMoniker": "D:\\ASP.NET\\PT\\LoanDemo\\NewApplication.aspx",
               "RelativeDocumentMoniker": "NewApplication.aspx",
               "ToolTip": "D:\\ASP.NET\\PT\\LoanDemo\\NewApplication.aspx",
               "RelativeToolTip": "NewApplication.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-12-23T05:48:09.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Login.aspx",
               "DocumentMoniker": "D:\\ASP.NET\\PT\\LoanDemo\\Login.aspx",
               "RelativeDocumentMoniker": "Login.aspx",
