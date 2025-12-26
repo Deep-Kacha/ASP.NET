@@ -11,6 +11,10 @@ namespace LoanDemo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["email"] == null)
+            {
+                Response.Redirect("Login.aspx"); // redirect to login if not logged in
+            }
             String email = (string)Session["email"]; // retrieve email from session
             lblUser.Text = "Welcome, " + email; // display email on home page
         }
@@ -20,6 +24,11 @@ namespace LoanDemo
             Session.Clear();      // Clear all session variables
             Session.Abandon();    // End session
             Response.Redirect("Login.aspx");
+        }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("NewApplication.aspx"); // move to Home page after login
         }
     }
 }
