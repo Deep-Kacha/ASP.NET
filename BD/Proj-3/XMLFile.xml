@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>Images/1.jpg</ImageUrl>
+		<NavigateUrl>https://www.meesho.com/</NavigateUrl>
+		<AlternateText>Tommy Shelby</AlternateText>
+		<Impression>5</Impression>
+		<Keywords>Actor</Keywords>
+	</Ad>
+</Advertisements>

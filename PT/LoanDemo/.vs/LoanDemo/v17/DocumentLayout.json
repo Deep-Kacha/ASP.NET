@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:mviewapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|d:\\asp.net\\pt\\loandemo\\mremoveapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|D:\\ASP.NET\\PT\\LoanDemo\\mremoveapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:mremoveapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|d:\\asp.net\\pt\\loandemo\\loanmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|D:\\ASP.NET\\PT\\LoanDemo\\loanmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:loanmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|d:\\asp.net\\pt\\loandemo\\mnewapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|D:\\ASP.NET\\PT\\LoanDemo\\mnewapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:mnewapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:loanmaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|d:\\asp.net\\pt\\loandemo\\mupdateapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|D:\\ASP.NET\\PT\\LoanDemo\\mupdateapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:mupdateapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -99,8 +99,7 @@
               "RelativeToolTip": "mRemoveApplication.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-12-26T15:41:07.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-26T15:41:07.879Z"
             },
             {
               "$type": "Document",
@@ -112,8 +111,7 @@
               "RelativeToolTip": "mUpdateApplication.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-12-26T15:35:49.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-26T15:35:49.298Z"
             },
             {
               "$type": "Document",
@@ -125,8 +123,7 @@
               "RelativeToolTip": "mNewApplication.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-12-26T15:29:07.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-26T15:29:07.407Z"
             },
             {
               "$type": "Document",
@@ -138,8 +135,7 @@
               "RelativeToolTip": "LoanMaster.Master.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAqwDIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T14:21:01.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-26T14:21:01.463Z"
             },
             {
               "$type": "Document",
@@ -151,8 +147,7 @@
               "RelativeToolTip": "mHome.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-12-26T14:13:40.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-26T14:13:40.611Z"
             },
             {
               "$type": "Document",
@@ -162,7 +157,6 @@
               "RelativeDocumentMoniker": "LoanMaster.Master",
               "ToolTip": "D:\\ASP.NET\\PT\\LoanDemo\\LoanMaster.Master",
               "RelativeToolTip": "LoanMaster.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-12-26T05:54:51.102Z",
               "EditorCaption": ""
@@ -177,8 +171,7 @@
               "RelativeToolTip": "Login.aspx.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA4wBcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T05:37:11.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-26T05:37:11.08Z"
             },
             {
               "$type": "Document",
@@ -190,8 +183,7 @@
               "RelativeToolTip": "NewApplication.aspx.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T05:33:50.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-26T05:33:50.873Z"
             },
             {
               "$type": "Document",
@@ -203,8 +195,7 @@
               "RelativeToolTip": "Home.aspx.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAUwBkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T05:26:12.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-26T05:26:12.545Z"
             },
             {
               "$type": "Document",
@@ -216,8 +207,7 @@
               "RelativeToolTip": "Home.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-12-26T05:26:07.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-26T05:26:07.519Z"
             },
             {
               "$type": "Document",
@@ -229,8 +219,7 @@
               "RelativeToolTip": "NewApplication.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-12-23T05:48:09.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T05:48:09.612Z"
             },
             {
               "$type": "Document",
@@ -242,8 +231,7 @@
               "RelativeToolTip": "Login.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-12-23T04:46:28.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T04:46:28.508Z"
             }
           ]
         },
