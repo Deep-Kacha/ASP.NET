@@ -1,17 +1,41 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace LoanDemo
 {
-    public partial class mNewApplication : System.Web.UI.Page
+    public partial class mNewApplication : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            lblsubmit.Visible = true;
+        }
 
+        protected void txtsavingaccount_TextChanged(object sender, EventArgs e)
+        {
+            // Example auto-fill (dummy data)
+            if (txtAccountNo.Text == "1001")
+            {
+                txtAccHolderName.Text = "John Doe";
+            }
+            else
+            {
+                txtAccHolderName.Text = "";
+            }
+        }
+
+        protected void btnsubmit_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void ClearForm()
+        {
+            txtAccountNo.Text = "";
+            txtAccHolderName.Text = "";
+            txtDate.Text = "";
+            txtAmount.Text = "";
+            txtCurrentAddress.Text = "";
+            txtRemarks.Text = "";
         }
     }
 }

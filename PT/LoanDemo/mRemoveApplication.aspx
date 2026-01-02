@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
             <br />
-    <asp:Label ID="Label1" runat="server" Text="DISCARD LOAN APPLICATION"></asp:Label><br />
+    <asp:Label ID="Label1" runat="server" Text="DISCARD LOAN APPLICATION" style="font-weight: 700"></asp:Label><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <table>
     <tr>
@@ -23,6 +23,7 @@
         <td>Loan Category : </td>
         <td>
             <asp:DropDownList ID="catagoryDropDownList" runat="server">
+                <asp:ListItem>Select</asp:ListItem>
                 <asp:ListItem>Property Loan</asp:ListItem>
                 <asp:ListItem>Fixed Rate Loan</asp:ListItem>
                 <asp:ListItem>Term Loan</asp:ListItem>
@@ -33,6 +34,7 @@
         <td>Loan Type : </td>
         <td>
             <asp:DropDownList ID="typeDropDownList" runat="server">
+                <asp:ListItem>Select</asp:ListItem>
                 <asp:ListItem>Education Loan</asp:ListItem>
                 <asp:ListItem>Home Loan</asp:ListItem>
             </asp:DropDownList>
@@ -53,16 +55,18 @@
     <tr>
         <td>Current Address : </td>
         <td>
-            <textarea id="TextArea1" cols="20" name="S1" rows="2"></textarea></td>
+            <asp:TextBox ID="txtCurrentAddress" runat="server"></asp:TextBox>
+        </td>
     </tr>
     <tr>
         <td>Loan Remarks : </td>
         <td>
-            <textarea id="TextArea2" cols="20" name="S2" rows="2"></textarea></td>
+            <asp:TextBox ID="txtRemarks" runat="server"></asp:TextBox>
+        </td>
     </tr>
 
 </table>
 <br />
 <asp:Button ID="btnsubmit" runat="server" Text="Remove Application" />&nbsp;<br />
-<asp:Label ID="lblsubmit" runat="server" Text="Record Remove sucessfully"></asp:Label>
+<asp:Label ID="lblsubmit" runat="server" Text="Record Remove sucessfully" ForeColor="Green"></asp:Label>
 </asp:Content>
