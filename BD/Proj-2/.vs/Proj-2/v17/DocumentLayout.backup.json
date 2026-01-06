@@ -3,16 +3,13 @@
   "WorkspaceRootPath": "D:\\ASP.NET\\BD\\Proj-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{254065D5-B141-9B3A-DF28-6A4CCE31B2DF}|D:\\ASP.NET\\BD\\Proj-3|d:\\asp.net\\bd\\proj-3\\richcontrol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{254065D5-B141-9B3A-DF28-6A4CCE31B2DF}|D:\\ASP.NET\\BD\\Proj-3|d:\\asp.net\\bd\\proj-3\\txtarea.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{254065D5-B141-9B3A-DF28-6A4CCE31B2DF}|D:\\ASP.NET\\BD\\Proj-3|d:\\asp.net\\bd\\proj-3\\richcontrol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{254065D5-B141-9B3A-DF28-6A4CCE31B2DF}|D:\\ASP.NET\\BD\\Proj-3|d:\\asp.net\\bd\\proj-3\\statemanagemant.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{254065D5-B141-9B3A-DF28-6A4CCE31B2DF}|D:\\ASP.NET\\BD\\Proj-3|d:\\asp.net\\bd\\proj-3\\xmlfile.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{254065D5-B141-9B3A-DF28-6A4CCE31B2DF}|D:\\ASP.NET\\BD\\Proj-3|d:\\asp.net\\bd\\proj-3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{254065D5-B141-9B3A-DF28-6A4CCE31B2DF}|D:\\ASP.NET\\BD\\Proj-3|d:\\asp.net\\bd\\proj-3\\statemanagemant.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +19,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +35,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RichControl.aspx.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\BD\\Proj-3\\RichControl.aspx.cs",
-              "RelativeDocumentMoniker": "..\\Proj-3\\RichControl.aspx.cs",
-              "ToolTip": "D:\\ASP.NET\\BD\\Proj-3\\RichControl.aspx.cs",
-              "RelativeToolTip": "..\\Proj-3\\RichControl.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T13:17:25.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RichControl.aspx",
-              "DocumentMoniker": "D:\\ASP.NET\\BD\\Proj-3\\RichControl.aspx",
-              "RelativeDocumentMoniker": "..\\Proj-3\\RichControl.aspx",
-              "ToolTip": "D:\\ASP.NET\\BD\\Proj-3\\RichControl.aspx",
-              "RelativeToolTip": "..\\Proj-3\\RichControl.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-12-31T13:15:17.678Z",
+              "Title": "StateManagemant.aspx.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\BD\\Proj-3\\StateManagemant.aspx.cs",
+              "RelativeDocumentMoniker": "..\\Proj-3\\StateManagemant.aspx.cs",
+              "ToolTip": "D:\\ASP.NET\\BD\\Proj-3\\StateManagemant.aspx.cs",
+              "RelativeToolTip": "..\\Proj-3\\StateManagemant.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T05:14:48.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "XMLFile.xml",
-              "DocumentMoniker": "D:\\ASP.NET\\BD\\Proj-3\\XMLFile.xml",
-              "RelativeDocumentMoniker": "..\\Proj-3\\XMLFile.xml",
-              "ToolTip": "D:\\ASP.NET\\BD\\Proj-3\\XMLFile.xml",
-              "RelativeToolTip": "..\\Proj-3\\XMLFile.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-12-31T13:12:12.344Z",
+              "Title": "StateManagemant.aspx",
+              "DocumentMoniker": "D:\\ASP.NET\\BD\\Proj-3\\StateManagemant.aspx",
+              "RelativeDocumentMoniker": "..\\Proj-3\\StateManagemant.aspx",
+              "ToolTip": "D:\\ASP.NET\\BD\\Proj-3\\StateManagemant.aspx",
+              "RelativeToolTip": "..\\Proj-3\\StateManagemant.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-06T04:45:45.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\ASP.NET\\BD\\Proj-3\\Web.config",
-              "RelativeDocumentMoniker": "..\\Proj-3\\Web.config",
-              "ToolTip": "D:\\ASP.NET\\BD\\Proj-3\\Web.config",
-              "RelativeToolTip": "..\\Proj-3\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-12-31T05:31:51.579Z",
+              "DocumentIndex": 0,
+              "Title": "txtArea.aspx",
+              "DocumentMoniker": "D:\\ASP.NET\\BD\\Proj-3\\txtArea.aspx",
+              "RelativeDocumentMoniker": "..\\Proj-3\\txtArea.aspx",
+              "ToolTip": "D:\\ASP.NET\\BD\\Proj-3\\txtArea.aspx",
+              "RelativeToolTip": "..\\Proj-3\\txtArea.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-05T15:55:36.254Z",
               "EditorCaption": ""
             }
           ]
