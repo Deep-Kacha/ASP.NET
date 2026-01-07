@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\ASP.NET\\PT\\LoanDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|D:\\ASP.NET\\PT\\LoanDemo\\mnewapplication.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:mnewapplication.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|D:\\ASP.NET\\PT\\LoanDemo\\mnewapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:mnewapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|D:\\ASP.NET\\PT\\LoanDemo\\mnewapplication.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|solutionrelative:mnewapplication.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1CFF0B8-F32C-459E-BFE0-EBEC8D84614E}|LoanApplication.csproj|d:\\asp.net\\pt\\loandemo\\mremoveapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "mNewApplication.aspx",
               "DocumentMoniker": "D:\\ASP.NET\\PT\\LoanDemo\\mNewApplication.aspx",
               "RelativeDocumentMoniker": "mNewApplication.aspx",
@@ -100,13 +100,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "mNewApplication.aspx.cs",
               "DocumentMoniker": "D:\\ASP.NET\\PT\\LoanDemo\\mNewApplication.aspx.cs",
               "RelativeDocumentMoniker": "mNewApplication.aspx.cs",
               "ToolTip": "D:\\ASP.NET\\PT\\LoanDemo\\mNewApplication.aspx.cs",
               "RelativeToolTip": "mNewApplication.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-02T12:44:41.655Z",
               "EditorCaption": ""

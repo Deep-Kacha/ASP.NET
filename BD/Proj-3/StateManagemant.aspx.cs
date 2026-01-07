@@ -55,6 +55,6 @@ public partial class StateManagemant : System.Web.UI.Page
 
     protected void Button5_Click(object sender, EventArgs e)
     {
-        Response.Redirect("/")
+        Response.Redirect("/");
     }
 }
