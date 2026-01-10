@@ -15,18 +15,18 @@
         <hr />
         Logged in:
         <asp:Label ID="lblUser" runat="server" Text="Logged in user"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnLogout" runat="server" Text="Logout" OnClick="btnLogout_Click" />
+        <asp:Button ID="btnLogout" runat="server" Text="Logout" OnClick="btnLogout_Click" CausesValidation="False" />
         <br />
         <br />
-        <asp:LinkButton ID="btnHome" runat="server" OnClick="linkBtnHome">Home</asp:LinkButton>
+        <asp:LinkButton ID="btnHome" runat="server" OnClick="linkBtnHome" CausesValidation="False">Home</asp:LinkButton>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <asp:LinkButton ID="btnNewApplication" runat="server" OnClick="linkBtnNewApplication">New Application</asp:LinkButton>
+       <asp:LinkButton ID="btnNewApplication" runat="server" OnClick="linkBtnNewApplication" CausesValidation="False">New Application</asp:LinkButton>
         &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <asp:LinkButton ID="btnUodateApplication" runat="server" OnClick="linkBtnUodateApplication">Update Application</asp:LinkButton>
+       <asp:LinkButton ID="btnUodateApplication" runat="server" OnClick="linkBtnUodateApplication" CausesValidation="False">Update Application</asp:LinkButton>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <asp:LinkButton ID="btnRemoveApplication" runat="server" OnClick="linkBtnRemoveApplication">Remove Application</asp:LinkButton>
+       <asp:LinkButton ID="btnRemoveApplication" runat="server" OnClick="linkBtnRemoveApplication" CausesValidation="False">Remove Application</asp:LinkButton>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <asp:LinkButton ID="btnViewAll" runat="server" OnClick="linkBtnViewAll">View All</asp:LinkButton>
+       <asp:LinkButton ID="btnViewAll" runat="server" OnClick="linkBtnViewAll" CausesValidation="False">View All</asp:LinkButton>
 
 
         <div>

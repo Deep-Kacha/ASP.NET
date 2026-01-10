@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\LoanApp.mdf" />
+    <Content Include="App_Data\LoanApp_log.ldf">
+      <DependentUpon>LoanApp.mdf</DependentUpon>
+    </Content>
     <Content Include="Home.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="mHome.aspx" />
