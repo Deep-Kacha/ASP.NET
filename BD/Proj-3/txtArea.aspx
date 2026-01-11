@@ -13,7 +13,8 @@
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox1" ErrorMessage="Pela aa Bharo" ForeColor="Red"></asp:RequiredFieldValidator>
         </div>
         <p>
-            <textarea id="txtArea" cols="20" name="S1" rows="2"></textarea><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Pachi aa Bharo" ForeColor="Red" ></asp:RequiredFieldValidator>
+            <asp:TextBox ID="TextBox2" runat="server" TextMode="MultiLine"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ControlToValidate="TextBox2" runat="server" ErrorMessage="Pachi aa Bharo" ForeColor="Red" ></asp:RequiredFieldValidator>
         </p>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="submit" />
     </form>

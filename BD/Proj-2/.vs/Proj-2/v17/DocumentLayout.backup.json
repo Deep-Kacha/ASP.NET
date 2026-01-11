@@ -6,10 +6,16 @@
       "AbsoluteMoniker": "D:0:0:{254065D5-B141-9B3A-DF28-6A4CCE31B2DF}|D:\\ASP.NET\\BD\\Proj-3|d:\\asp.net\\bd\\proj-3\\txtarea.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{254065D5-B141-9B3A-DF28-6A4CCE31B2DF}|D:\\ASP.NET\\BD\\Proj-3|d:\\asp.net\\bd\\proj-3\\validationdemo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{254065D5-B141-9B3A-DF28-6A4CCE31B2DF}|D:\\ASP.NET\\BD\\Proj-3|d:\\asp.net\\bd\\proj-3\\statemanagemant.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{254065D5-B141-9B3A-DF28-6A4CCE31B2DF}|D:\\ASP.NET\\BD\\Proj-3|d:\\asp.net\\bd\\proj-3\\statemanagemant.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254065D5-B141-9B3A-DF28-6A4CCE31B2DF}|D:\\ASP.NET\\BD\\Proj-3|d:\\asp.net\\bd\\proj-3\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,27 +40,57 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ValidationDemo.aspx",
+              "DocumentMoniker": "D:\\ASP.NET\\BD\\Proj-3\\ValidationDemo.aspx",
+              "RelativeDocumentMoniker": "..\\Proj-3\\ValidationDemo.aspx",
+              "ToolTip": "D:\\ASP.NET\\BD\\Proj-3\\ValidationDemo.aspx",
+              "RelativeToolTip": "..\\Proj-3\\ValidationDemo.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-09T05:23:52.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "login.aspx",
+              "DocumentMoniker": "D:\\ASP.NET\\BD\\Proj-3\\login.aspx",
+              "RelativeDocumentMoniker": "..\\Proj-3\\login.aspx",
+              "ToolTip": "D:\\ASP.NET\\BD\\Proj-3\\login.aspx",
+              "RelativeToolTip": "..\\Proj-3\\login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-07T05:59:25.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StateManagemant.aspx.cs",
               "DocumentMoniker": "D:\\ASP.NET\\BD\\Proj-3\\StateManagemant.aspx.cs",
               "RelativeDocumentMoniker": "..\\Proj-3\\StateManagemant.aspx.cs",
               "ToolTip": "D:\\ASP.NET\\BD\\Proj-3\\StateManagemant.aspx.cs",
               "RelativeToolTip": "..\\Proj-3\\StateManagemant.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-06T05:14:48.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StateManagemant.aspx",
               "DocumentMoniker": "D:\\ASP.NET\\BD\\Proj-3\\StateManagemant.aspx",
               "RelativeDocumentMoniker": "..\\Proj-3\\StateManagemant.aspx",
               "ToolTip": "D:\\ASP.NET\\BD\\Proj-3\\StateManagemant.aspx",
               "RelativeToolTip": "..\\Proj-3\\StateManagemant.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-01-06T04:45:45.78Z",
               "EditorCaption": ""
@@ -65,8 +101,8 @@
               "Title": "txtArea.aspx",
               "DocumentMoniker": "D:\\ASP.NET\\BD\\Proj-3\\txtArea.aspx",
               "RelativeDocumentMoniker": "..\\Proj-3\\txtArea.aspx",
-              "ToolTip": "D:\\ASP.NET\\BD\\Proj-3\\txtArea.aspx",
-              "RelativeToolTip": "..\\Proj-3\\txtArea.aspx",
+              "ToolTip": "D:\\ASP.NET\\BD\\Proj-3\\txtArea.aspx*",
+              "RelativeToolTip": "..\\Proj-3\\txtArea.aspx*",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-01-05T15:55:36.254Z",
