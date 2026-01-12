@@ -82,6 +82,6 @@
 
 </table>
 <br />
-<asp:Button ID="btnsubmit" runat="server" Text="Submit Application" />&nbsp;<br />
+<asp:Button ID="btnsubmit" runat="server" Text="Submit Application" OnClick="btnsubmit_Click"/>&nbsp;<br />
 <asp:Label ID="lblsubmit" runat="server" Text="Record Inserted sucessfully" ForeColor="Green"></asp:Label>
 </asp:Content>
