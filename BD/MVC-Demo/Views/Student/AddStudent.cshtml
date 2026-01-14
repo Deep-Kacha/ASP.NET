@@ -1,0 +1,22 @@
+﻿@using MVC_Demo.Models
+@{
+    ViewBag.Title = "AddStudent";
+}
+
+<h2>AddStudent</h2>
+@using (Html.BeginForm("AddStudent", "Student", FormMethod.Post))
+{
+    <form>
+        <div class="form-floating mb-3">
+            @*@Html.TextAreaFor(model => model.StudentName, new { @class = "form-control", placeholder = "Student Name", style = "height: 100px" })*@
+            <input type="text" class="form-control" id="floatingInput" placeholder="Student Name">
+            <label for="floatingInput">Student Name</label>
+        </div>
+        <div class="form-floating">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Student City">
+            <label for="floatingPassword">Student City</label>
+        </div>
+        <br />
+        <button type="button" class="btn btn-primary btn-sm">Submit</button>
+    </form>
+}
