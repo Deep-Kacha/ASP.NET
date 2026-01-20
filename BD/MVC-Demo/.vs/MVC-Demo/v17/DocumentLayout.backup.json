@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\ASP.NET\\BD\\MVC-Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|d:\\asp.net\\bd\\mvc-demo\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|D:\\ASP.NET\\BD\\MVC-Demo\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|solutionrelative:views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|D:\\ASP.NET\\BD\\MVC-Demo\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|D:\\ASP.NET\\BD\\MVC-Demo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|D:\\ASP.NET\\BD\\MVC-Demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|D:\\ASP.NET\\BD\\MVC-Demo\\dbcontext\\studentdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|solutionrelative:dbcontext\\studentdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|D:\\ASP.NET\\BD\\MVC-Demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|D:\\ASP.NET\\BD\\MVC-Demo\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,67 +46,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "studentDB.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\BD\\MVC-Demo\\DBContext\\studentDB.cs",
+              "RelativeDocumentMoniker": "DBContext\\studentDB.cs",
+              "ToolTip": "D:\\ASP.NET\\BD\\MVC-Demo\\DBContext\\studentDB.cs",
+              "RelativeToolTip": "DBContext\\studentDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T05:59:01.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AddStudent.cshtml",
               "DocumentMoniker": "D:\\ASP.NET\\BD\\MVC-Demo\\Views\\Student\\AddStudent.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\AddStudent.cshtml",
               "ToolTip": "D:\\ASP.NET\\BD\\MVC-Demo\\Views\\Student\\AddStudent.cshtml",
               "RelativeToolTip": "Views\\Student\\AddStudent.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-13T04:59:38.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "StudentController.cs",
               "DocumentMoniker": "D:\\ASP.NET\\BD\\MVC-Demo\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
               "ToolTip": "D:\\ASP.NET\\BD\\MVC-Demo\\Controllers\\StudentController.cs",
               "RelativeToolTip": "Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T04:54:41.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\ASP.NET\\BD\\MVC-Demo\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
               "ToolTip": "D:\\ASP.NET\\BD\\MVC-Demo\\Models\\Student.cs",
               "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T04:48:00.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\ASP.NET\\BD\\MVC-Demo\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\ASP.NET\\BD\\MVC-Demo\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T04:47:00.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\BD\\MVC-Demo\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\ASP.NET\\BD\\MVC-Demo\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T04:43:49.266Z",
               "EditorCaption": ""
             }
           ]
