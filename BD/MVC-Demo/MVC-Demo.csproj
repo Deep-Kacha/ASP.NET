@@ -120,16 +120,23 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
+    <Compile Include="DBContext\customerDB.cs" />
     <Compile Include="DBContext\studentDB.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\CustomerDB.mdf" />
+    <Content Include="App_Data\CustomerDB_log.ldf">
+      <DependentUpon>CustomerDB.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\StudentDB.mdf" />
     <Content Include="App_Data\StudentDB_log.ldf">
       <DependentUpon>StudentDB.mdf</DependentUpon>
@@ -185,6 +192,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Student\AddStudent.cshtml" />
+    <Content Include="Views\Customer\AddCustomer.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

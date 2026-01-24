@@ -22,5 +22,10 @@ namespace MVC_Demo.Models.DBContext
                 cmd.ExecuteNonQuery();
             }
         }
+
+        public void DISPLAY(Student s1)
+        {
+            // CODE
+        }
     }
 }

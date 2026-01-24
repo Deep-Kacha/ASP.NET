@@ -1,0 +1,22 @@
+﻿@model MVC_Demo.Models.Customer
+@{
+    ViewBag.Title = "AddCustomer";
+}
+
+<h2>Customer</h2>
+<form method="post">
+    <div class="form-floating">
+        @Html.TextAreaFor(model => model.customer_name, new { @class = "form-control", placeholder = "Customer Name" })
+        <label>Customer Name</label>
+        <br />
+    </div>
+
+    <div class="form-floating">
+        @Html.TextBoxFor(model => model.customer_payment, new { @class = "form-control", placeholder = "Customer Payment" })
+        <label>Customer Payment</label>
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+
+</form>
