@@ -3,15 +3,12 @@
   "WorkspaceRootPath": "D:\\ASP.NET\\BD\\MVC-Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__ASP.NET_BD_MVC_DEMO_APP_DATA_CUSTOMERDB.MDF/True/SqlTable/dbo.Customer.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|D:\\ASP.NET\\BD\\MVC-Demo\\dbcontext\\customerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|solutionrelative:dbcontext\\customerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|D:\\ASP.NET\\BD\\MVC-Demo\\views\\customer\\addcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|solutionrelative:views\\customer\\addcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|D:\\ASP.NET\\BD\\MVC-Demo\\dbcontext\\customerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|solutionrelative:dbcontext\\customerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F721FE4-7C37-4A1A-B676-06801E1C11BB}|MVC-Demo.csproj|D:\\ASP.NET\\BD\\MVC-Demo\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,16 +63,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dbo.Customer [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__ASP.NET_BD_MVC_DEMO_APP_DATA_CUSTOMERDB.MDF/True/SqlTable/dbo.Customer.sql",
-              "ToolTip": "dbo.Customer [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-01-24T15:28:58.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "customerDB.cs",
               "DocumentMoniker": "D:\\ASP.NET\\BD\\MVC-Demo\\DBContext\\customerDB.cs",
               "RelativeDocumentMoniker": "DBContext\\customerDB.cs",
@@ -96,12 +83,11 @@
               "RelativeToolTip": "Views\\Customer\\AddCustomer.cshtml",
               "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-21T05:15:01.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T05:15:01.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "D:\\ASP.NET\\BD\\MVC-Demo\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
@@ -109,12 +95,11 @@
               "RelativeToolTip": "Controllers\\CustomerController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAIwBYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T05:14:08.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T05:14:08.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Customer.cs",
               "DocumentMoniker": "D:\\ASP.NET\\BD\\MVC-Demo\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "Models\\Customer.cs",
@@ -122,12 +107,11 @@
               "RelativeToolTip": "Models\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T05:13:19.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T05:13:19.521Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "studentDB.cs",
               "DocumentMoniker": "D:\\ASP.NET\\BD\\MVC-Demo\\DBContext\\studentDB.cs",
               "RelativeDocumentMoniker": "DBContext\\studentDB.cs",
@@ -135,12 +119,11 @@
               "RelativeToolTip": "DBContext\\studentDB.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T05:59:01.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T05:59:01.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "AddStudent.cshtml",
               "DocumentMoniker": "D:\\ASP.NET\\BD\\MVC-Demo\\Views\\Student\\AddStudent.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\AddStudent.cshtml",
@@ -148,12 +131,11 @@
               "RelativeToolTip": "Views\\Student\\AddStudent.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T04:59:38.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T04:59:38.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "StudentController.cs",
               "DocumentMoniker": "D:\\ASP.NET\\BD\\MVC-Demo\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
@@ -161,12 +143,11 @@
               "RelativeToolTip": "Controllers\\StudentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T04:54:41.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T04:54:41.519Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\ASP.NET\\BD\\MVC-Demo\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
@@ -174,8 +155,7 @@
               "RelativeToolTip": "Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T04:48:00.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T04:48:00.985Z"
             }
           ]
         },
