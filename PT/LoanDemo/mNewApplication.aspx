@@ -31,7 +31,7 @@
         <tr>
             <td>Account Holder Name:</td>
             <td>
-                <asp:TextBox ID="txtAccHolderName" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtAccHolderName" runat="server" Enabled="False"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2"
                     runat="server" ControlToValidate="txtAccHolderName"
                     ErrorMessage="Holder name is required" ForeColor="Red" />

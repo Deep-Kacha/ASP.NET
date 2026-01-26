@@ -55,14 +55,30 @@ namespace LoanDemo
 
             using (SqlConnection con = new SqlConnection(connectionString))
             {
-                string query = @"INSERT INTO LoanApplication
-                                (SavingAccountNo, AccountHolderName, LoanCategory, LoanType,
-                                 LoanIssueDate, LoanAmount, CurrentAddress, LoanRemarks)
-                                VALUES
-                                (@SavingAccountNo, @AccountHolderName, @LoanCategory, @LoanType,
-                                 @LoanIssueDate, @LoanAmount, @CurrentAddress, @LoanRemarks)";
+                con.Open();
 
-                SqlCommand cmd = new SqlCommand(query, con);
+                SqlCommand checkCmd = new SqlCommand(
+                    "SELECT COUNT(*) FROM LoanApplication WHERE SavingAccountNo = @SavingAccountNo", con);
+
+                checkCmd.Parameters.AddWithValue("@SavingAccountNo", txtAccountNo.Text.Trim());
+
+                int count = Convert.ToInt32(checkCmd.ExecuteScalar());
+
+                if (count > 0)
+                {
+                    lblsubmit.Text = "This Saving Account Number already exists. Use Update Application.";
+                    lblsubmit.ForeColor = System.Drawing.Color.Red;
+                    lblsubmit.Visible = true;
+                    return;
+                }
+
+                SqlCommand cmd = new SqlCommand(
+                    @"INSERT INTO LoanApplication
+              (SavingAccountNo, AccountHolderName, LoanCategory, LoanType,
+               LoanIssueDate, LoanAmount, CurrentAddress, LoanRemarks)
+              VALUES
+              (@SavingAccountNo, @AccountHolderName, @LoanCategory, @LoanType,
+               @LoanIssueDate, @LoanAmount, @CurrentAddress, @LoanRemarks)", con);
 
                 cmd.Parameters.AddWithValue("@SavingAccountNo", txtAccountNo.Text.Trim());
                 cmd.Parameters.AddWithValue("@AccountHolderName", txtAccHolderName.Text.Trim());
@@ -73,15 +89,16 @@ namespace LoanDemo
                 cmd.Parameters.AddWithValue("@CurrentAddress", txtCurrentAddress.Text.Trim());
                 cmd.Parameters.AddWithValue("@LoanRemarks", txtRemarks.Text.Trim());
 
-                con.Open();
                 cmd.ExecuteNonQuery();
             }
 
             lblsubmit.Text = "Loan Application Submitted Successfully!";
+            lblsubmit.ForeColor = System.Drawing.Color.Green;
             lblsubmit.Visible = true;
 
             ClearForm();
         }
+
 
         private void ClearForm()
         {
