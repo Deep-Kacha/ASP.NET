@@ -10,14 +10,14 @@
         <td>Saving Account No: </td>
         <td>
             <asp:TextBox ID="txtsavingaccount" runat="server"></asp:TextBox>&nbsp;&nbsp;
-            <asp:Button ID="Button2" runat="server" Text="Get Loan Details" Width="150px" />
+            <asp:Button ID="Button2" runat="server" Text="Get Loan Details" Width="150px" OnClick="Button2_Click"/>
             <br />
         </td>
     </tr>
     <tr>
         <td>Account Holder Name : </td>
         <td>
-            <asp:TextBox ID="txtaccholdername" runat="server"></asp:TextBox></td>
+            <asp:TextBox ID="txtaccholdername" runat="server" Enabled="False"></asp:TextBox></td>
     </tr>
     <tr>
         <td>Loan Category : </td>
@@ -67,6 +67,6 @@
 
 </table>
 <br />
-<asp:Button ID="btnsubmit" runat="server" Text="Update Application" /><br />
+<asp:Button ID="btnsubmit" runat="server" Text="Update Application" OnClick="btnsubmit_Click"/><br />
 <asp:Label ID="lblsubmit" runat="server" Text="Record Updated sucessfully" ForeColor="Green"></asp:Label>
 </asp:Content>
