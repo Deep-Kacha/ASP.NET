@@ -8,6 +8,23 @@ namespace MVC_Demo.Models.DBContext
         private string connectionString =
             "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\ASP.NET\\BD\\MVC-Demo\\App_Data\\StudentDB.mdf;Integrated Security=True";
 
+        // CHECK STUDENT BY NAME
+        public bool StudentExists(string studentname)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand(
+                    "SELECT COUNT(*) FROM Student WHERE studentname=@studentname", con);
+
+                cmd.Parameters.AddWithValue("@studentname", studentname);
+                con.Open();
+
+                int count = (int)cmd.ExecuteScalar();
+                return count > 0;
+            }
+        }
+
+        // INSERT
         public void AddStudent(Student s1)
         {
             using (SqlConnection con = new SqlConnection(connectionString))
@@ -23,9 +40,20 @@ namespace MVC_Demo.Models.DBContext
             }
         }
 
-        public void DISPLAY(Student s1)
+        // UPDATE BY NAME (NO ID)
+        public void UpdateStudentByName(Student s1)
         {
-            // CODE
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand(
+                    "UPDATE Student SET studentcity=@studentcity WHERE studentname=@studentname", con);
+
+                cmd.Parameters.AddWithValue("@studentname", s1.studentname);
+                cmd.Parameters.AddWithValue("@studentcity", s1.studentcity);
+
+                con.Open();
+                cmd.ExecuteNonQuery();
+            }
         }
     }
 }

@@ -14,3 +14,4 @@ namespace MVC_Demo.Models
         public string studentcity { get; set; }
     }
 }
+    
