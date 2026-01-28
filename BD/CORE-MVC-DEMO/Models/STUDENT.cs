@@ -1,0 +1,16 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace CORE_MVC_DEMO.Models
+{
+    public class STUDENT
+    {
+        [Key]
+        public int STUDENT_ID { get; set; }
+
+        [Required(ErrorMessage = "name lako pela")]
+        public string STUDENT_NAME { get; set; }
+
+        [Required]
+        public string STUDENT_EMAIL { get; set; }
+    }
+}
