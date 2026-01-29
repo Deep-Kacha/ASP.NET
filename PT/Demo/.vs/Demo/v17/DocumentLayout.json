@@ -16,7 +16,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,17 +31,8 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MathOperation.aspx.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\PT\\Demo1\\MathOperation.aspx.cs",
-              "RelativeDocumentMoniker": "..\\Demo1\\MathOperation.aspx.cs",
-              "ToolTip": "D:\\ASP.NET\\PT\\Demo1\\MathOperation.aspx.cs",
-              "RelativeToolTip": "..\\Demo1\\MathOperation.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T05:14:15.77Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
@@ -54,6 +45,19 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-12-19T05:14:02.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MathOperation.aspx.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\PT\\Demo1\\MathOperation.aspx.cs",
+              "RelativeDocumentMoniker": "..\\Demo1\\MathOperation.aspx.cs",
+              "ToolTip": "D:\\ASP.NET\\PT\\Demo1\\MathOperation.aspx.cs",
+              "RelativeToolTip": "..\\Demo1\\MathOperation.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T05:14:15.77Z",
               "EditorCaption": ""
             }
           ]

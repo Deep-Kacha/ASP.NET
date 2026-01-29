@@ -66,15 +66,7 @@ namespace LoanDemo
         {
             using (SqlConnection con = new SqlConnection(connectionString))
             {
-                SqlCommand cmd = new SqlCommand(
-                    @"UPDATE LoanApplication SET
-                        LoanCategory = @LoanCategory,
-                        LoanType = @LoanType,
-                        LoanIssueDate = @LoanIssueDate,
-                        LoanAmount = @LoanAmount,
-                        CurrentAddress = @CurrentAddress,
-                        LoanRemarks = @LoanRemarks
-                      WHERE SavingAccountNo = @SavingAccountNo", con);
+                SqlCommand cmd = new SqlCommand(@"UPDATE LoanApplication SET LoanCategory = @LoanCategory, LoanType = @LoanType, LoanIssueDate = @LoanIssueDate, LoanAmount = @LoanAmount, CurrentAddress = @CurrentAddress, LoanRemarks = @LoanRemarks WHERE SavingAccountNo = @SavingAccountNo", con);
 
                 cmd.Parameters.AddWithValue("@LoanCategory", catagoryDropDownList.SelectedValue);
                 cmd.Parameters.AddWithValue("@LoanType", typeDropDownList.SelectedValue);

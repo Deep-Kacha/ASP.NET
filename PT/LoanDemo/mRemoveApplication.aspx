@@ -10,7 +10,7 @@
         <td>Saving Account No: </td>
         <td>
             <asp:TextBox ID="txtsavingaccount" runat="server"></asp:TextBox>&nbsp;&nbsp;
-            <asp:Button ID="Button2" runat="server" Text="Get Loan Details" Width="150px" />
+            <asp:Button ID="Button2" runat="server" Text="Get Loan Details" Width="150px"  OnClick="Button2_Click"/>
             <br />
         </td>
     </tr>
@@ -67,6 +67,6 @@
 
 </table>
 <br />
-<asp:Button ID="btnsubmit" runat="server" Text="Remove Application" />&nbsp;<br />
+<asp:Button ID="btnsubmit" runat="server" Text="Remove Application" OnClick="btnsubmit_Click"/>&nbsp;<br />
 <asp:Label ID="lblsubmit" runat="server" Text="Record Remove sucessfully" ForeColor="Green"></asp:Label>
 </asp:Content>
