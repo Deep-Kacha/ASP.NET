@@ -48,7 +48,7 @@ namespace LoanDemo
 
         protected void linkBtnViewAll(object sender, EventArgs e)
         {
-            Response.Redirect("mViewAll.aspx");
+            Response.Redirect("mViewApplication.aspx");
         }
     }
 }
