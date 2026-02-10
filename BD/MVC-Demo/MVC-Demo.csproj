@@ -123,6 +123,7 @@
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
+    <Compile Include="DBContext1\STUDENTDB.cs" />
     <Compile Include="DBContext\customerDB.cs" />
     <Compile Include="DBContext\studentDB.cs" />
     <Compile Include="Global.asax.cs">
