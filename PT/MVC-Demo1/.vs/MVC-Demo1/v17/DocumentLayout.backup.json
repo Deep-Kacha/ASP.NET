@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\ASP.NET\\PT\\MVC-Demo1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18DB400B-CB07-4076-B7AB-14C6DFFC62A9}|MVC-Demo1.csproj|d:\\asp.net\\pt\\mvc-demo1\\views\\loan\\newapplication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18DB400B-CB07-4076-B7AB-14C6DFFC62A9}|MVC-Demo1.csproj|solutionrelative:views\\loan\\newapplication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18DB400B-CB07-4076-B7AB-14C6DFFC62A9}|MVC-Demo1.csproj|d:\\asp.net\\pt\\mvc-demo1\\views\\loan\\updateapplication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{18DB400B-CB07-4076-B7AB-14C6DFFC62A9}|MVC-Demo1.csproj|solutionrelative:views\\loan\\updateapplication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,8 +11,12 @@
       "RelativeMoniker": "D:0:0:{18DB400B-CB07-4076-B7AB-14C6DFFC62A9}|MVC-Demo1.csproj|solutionrelative:views\\loan\\discardapplication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18DB400B-CB07-4076-B7AB-14C6DFFC62A9}|MVC-Demo1.csproj|d:\\asp.net\\pt\\mvc-demo1\\views\\loan\\viewall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18DB400B-CB07-4076-B7AB-14C6DFFC62A9}|MVC-Demo1.csproj|solutionrelative:views\\loan\\viewall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{18DB400B-CB07-4076-B7AB-14C6DFFC62A9}|MVC-Demo1.csproj|d:\\asp.net\\pt\\mvc-demo1\\models\\loanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DB400B-CB07-4076-B7AB-14C6DFFC62A9}|MVC-Demo1.csproj|solutionrelative:models\\loanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DB400B-CB07-4076-B7AB-14C6DFFC62A9}|MVC-Demo1.csproj|d:\\asp.net\\pt\\mvc-demo1\\views\\loan\\newapplication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18DB400B-CB07-4076-B7AB-14C6DFFC62A9}|MVC-Demo1.csproj|solutionrelative:views\\loan\\newapplication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18DB400B-CB07-4076-B7AB-14C6DFFC62A9}|MVC-Demo1.csproj|d:\\asp.net\\pt\\mvc-demo1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -25,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{18DB400B-CB07-4076-B7AB-14C6DFFC62A9}|MVC-Demo1.csproj|d:\\asp.net\\pt\\mvc-demo1\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18DB400B-CB07-4076-B7AB-14C6DFFC62A9}|MVC-Demo1.csproj|solutionrelative:controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DB400B-CB07-4076-B7AB-14C6DFFC62A9}|MVC-Demo1.csproj|d:\\asp.net\\pt\\mvc-demo1\\views\\loan\\viewall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18DB400B-CB07-4076-B7AB-14C6DFFC62A9}|MVC-Demo1.csproj|solutionrelative:views\\loan\\viewall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,32 +59,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "LoanModel.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\PT\\MVC-Demo1\\Models\\LoanModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoanModel.cs",
+              "ToolTip": "D:\\ASP.NET\\PT\\MVC-Demo1\\Models\\LoanModel.cs",
+              "RelativeToolTip": "Models\\LoanModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T05:49:34.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DiscardApplication.cshtml",
               "DocumentMoniker": "D:\\ASP.NET\\PT\\MVC-Demo1\\Views\\Loan\\DiscardApplication.cshtml",
               "RelativeDocumentMoniker": "Views\\Loan\\DiscardApplication.cshtml",
               "ToolTip": "D:\\ASP.NET\\PT\\MVC-Demo1\\Views\\Loan\\DiscardApplication.cshtml",
               "RelativeToolTip": "Views\\Loan\\DiscardApplication.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-30T05:33:09.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UpdateApplication.cshtml",
               "DocumentMoniker": "D:\\ASP.NET\\PT\\MVC-Demo1\\Views\\Loan\\UpdateApplication.cshtml",
               "RelativeDocumentMoniker": "Views\\Loan\\UpdateApplication.cshtml",
               "ToolTip": "D:\\ASP.NET\\PT\\MVC-Demo1\\Views\\Loan\\UpdateApplication.cshtml",
               "RelativeToolTip": "Views\\Loan\\UpdateApplication.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-30T05:32:41.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "NewApplication.cshtml",
               "DocumentMoniker": "D:\\ASP.NET\\PT\\MVC-Demo1\\Views\\Loan\\NewApplication.cshtml",
               "RelativeDocumentMoniker": "Views\\Loan\\NewApplication.cshtml",
@@ -88,8 +105,7 @@
               "RelativeToolTip": "Views\\Loan\\NewApplication.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-30T05:32:02.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-30T05:32:02.447Z"
             },
             {
               "$type": "Document",
@@ -101,8 +117,7 @@
               "RelativeToolTip": "Controllers\\LoanController.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAQwBUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T05:19:42.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-30T05:19:42.214Z"
             },
             {
               "$type": "Document",
@@ -112,14 +127,13 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\ASP.NET\\PT\\MVC-Demo1\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-30T04:54:42.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-30T04:54:42.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ViewAll.cshtml",
               "DocumentMoniker": "D:\\ASP.NET\\PT\\MVC-Demo1\\Views\\Loan\\ViewAll.cshtml",
               "RelativeDocumentMoniker": "Views\\Loan\\ViewAll.cshtml",
@@ -127,8 +141,7 @@
               "RelativeToolTip": "Views\\Loan\\ViewAll.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-30T05:12:42.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-30T05:12:42.007Z"
             }
           ]
         },
