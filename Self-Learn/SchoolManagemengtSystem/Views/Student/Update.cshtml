@@ -1,0 +1,42 @@
+﻿@model SchoolManagemengtSystem.Models.StudentModel
+
+<h2>Update Student</h2>
+
+<form asp-action="Update" method="post">
+
+    <input type="hidden" asp-for="studentId" />
+
+    <div class="mb-3">
+        <label asp-for="studentName"></label>
+        <input asp-for="studentName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="studentBranch"></label>
+        <input asp-for="studentBranch" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="studentEmail"></label>
+        <input asp-for="studentEmail" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="studentDob"></label>
+        <input asp-for="studentDob" type="date" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="studentCity"></label>
+        <input asp-for="studentCity" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-warning">
+        Update Student
+    </button>
+
+    <a asp-action="Display" class="btn btn-secondary">
+        Cancel
+    </a>
+
+</form>

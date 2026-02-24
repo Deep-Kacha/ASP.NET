@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - School Management System</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="~/css/site.css" />
+
+    <!-- Icons (optional) -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+    <!-- 🔷 Top Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+
+            <a class="navbar-brand fw-bold" asp-controller="Home" asp-action="Index">
+
+                🎓 School Management
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Account" asp-action="Profile">
+                            <i class="fa fa-user"></i> Profile
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Account" asp-action="Logout">
+                            <i class="fa fa-sign-out-alt"></i> Logout
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 🔷 Main Layout -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- ✅ Sidebar -->
+            <div class="col-md-2 bg-dark text-white min-vh-100 p-3">
+
+                <h5 class="text-center">Menu</h5>
+                <hr />
+
+                <ul class="nav flex-column">
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white"
+                           asp-controller="Dashboard" asp-action="Index">
+                            <i class="fa fa-home"></i> Dashboard
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white dropdown-toggle"
+                           data-bs-toggle="collapse"
+                           href="#studentMenu"
+                           role="button"
+                           aria-expanded="false"
+                           aria-controls="studentMenu">
+                            <i class="fa fa-user-graduate"></i> Students
+                        </a>
+
+                        <div class="collapse" id="studentMenu">
+                            <ul class="nav flex-column ms-3">
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-white"
+                                       asp-controller="Student"
+                                       asp-action="Add">
+                                        ➕ Add Student
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-white"
+                                       asp-controller="Student"
+                                       asp-action="Display">    
+                                        📋 View Students
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white"
+                           asp-controller="Teacher" asp-action="Index">
+                            <i class="fa fa-chalkboard-teacher"></i> Teachers
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white"
+                           asp-controller="Course" asp-action="Index">
+                            <i class="fa fa-book"></i> Courses
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white"
+                           asp-controller="Attendance" asp-action="Index">
+                            <i class="fa fa-calendar-check"></i> Attendance
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white"
+                           asp-controller="Fees" asp-action="Index">
+                            <i class="fa fa-money-bill"></i> Fees
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- ✅ Page Content -->
+            <div class="col-md-10 p-4">
+
+                <main role="main" class="pb-3">
+
+                    @RenderBody()
+                </main>
+
+            </div>
+        </div>
+    </div>
+    es
+    <!-- 🔷 Footer -->
+    <footer class="border-top footer text-muted text-center py-3">
+        <div class="container">
+            &copy; @DateTime.Now.Year - School Management System
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js"></script>
+
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

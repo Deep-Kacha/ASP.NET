@@ -1,0 +1,50 @@
+﻿@model SchoolManagemengtSystem.Models.StudentModel
+
+@{
+    ViewData["Title"] = "Add Student";
+}
+
+<h2 class="mb-4">Add Student</h2>
+
+<form asp-action="Add" method="post">
+
+    <div class="form-group mb-3">
+        <label asp-for="studentName" class="form-label"></label>
+        <input asp-for="studentName" class="form-control" />
+        <span asp-validation-for="studentName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="studentBranch" class="form-label"></label>
+        <input asp-for="studentBranch" class="form-control" />
+        <span asp-validation-for="studentBranch" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="studentEmail" class="form-label"></label>
+        <input asp-for="studentEmail" type="email" class="form-control" />
+        <span asp-validation-for="studentEmail" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="studentDob" class="form-label"></label>
+        <input asp-for="studentDob" type="date" class="form-control" />
+        <span asp-validation-for="studentDob" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="studentCity" class="form-label"></label>
+        <input asp-for="studentCity" class="form-control" />
+        <span asp-validation-for="studentCity" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Student</button>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
